@@ -6,7 +6,7 @@
 // но при прочих равных всё работает, как надо.
 {
 const botNumber = Math.floor(Math.random() * 100);
-alert('Я загадал число от 1 до 100. Попробуй угадать...' + botNumber);
+alert('Я загадал число от 1 до 100. Попробуй угадать...');
 let anyNumber = (a ='Введите число:') => {
     let userNumber = prompt(`${a}`);
     if (Number.isNaN(+userNumber) || userNumber == "") anyNumber();
